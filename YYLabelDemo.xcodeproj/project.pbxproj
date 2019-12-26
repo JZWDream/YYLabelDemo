@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3024EF1D23B4771C0024F8FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3024EF1C23B4771C0024F8FB /* AppDelegate.m */; };
+		3024EF2023B4771C0024F8FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3024EF1F23B4771C0024F8FB /* SceneDelegate.m */; };
+		3024EF2323B4771C0024F8FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3024EF2223B4771C0024F8FB /* ViewController.m */; };
+		3024EF2623B4771C0024F8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3024EF2423B4771C0024F8FB /* Main.storyboard */; };
+		3024EF2823B4771F0024F8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3024EF2723B4771F0024F8FB /* Assets.xcassets */; };
+		3024EF2B23B4771F0024F8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3024EF2923B4771F0024F8FB /* LaunchScreen.storyboard */; };
+		3024EF2E23B4771F0024F8FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3024EF2D23B4771F0024F8FB /* main.m */; };
+		EFE7A064D3E6F9B9F2C6A437 /* libPods-YYLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31184B9DC93D311882135D1 /* libPods-YYLabelDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3024EF1823B4771C0024F8FB /* YYLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3024EF1B23B4771C0024F8FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3024EF1C23B4771C0024F8FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3024EF1E23B4771C0024F8FB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3024EF1F23B4771C0024F8FB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3024EF2123B4771C0024F8FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3024EF2223B4771C0024F8FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3024EF2523B4771C0024F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3024EF2723B4771F0024F8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3024EF2A23B4771F0024F8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3024EF2C23B4771F0024F8FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024EF2D23B4771F0024F8FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AA0B1BEBF4E4C2E4CEA3401 /* Pods-YYLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabelDemo.release.xcconfig"; path = "Target Support Files/Pods-YYLabelDemo/Pods-YYLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF6918D4B5A754559D80C68F /* Pods-YYLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYLabelDemo.debug.xcconfig"; path = "Target Support Files/Pods-YYLabelDemo/Pods-YYLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F31184B9DC93D311882135D1 /* libPods-YYLabelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYLabelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3024EF1523B4771C0024F8FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE7A064D3E6F9B9F2C6A437 /* libPods-YYLabelDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3024EF0F23B4771C0024F8FB = {
+			isa = PBXGroup;
+			children = (
+				3024EF1A23B4771C0024F8FB /* YYLabelDemo */,
+				3024EF1923B4771C0024F8FB /* Products */,
+				C7D675BE9A116EF162A13BC4 /* Pods */,
+				9832BCBA306901BDA1ED42FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3024EF1923B4771C0024F8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3024EF1823B4771C0024F8FB /* YYLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3024EF1A23B4771C0024F8FB /* YYLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3024EF1B23B4771C0024F8FB /* AppDelegate.h */,
+				3024EF1C23B4771C0024F8FB /* AppDelegate.m */,
+				3024EF1E23B4771C0024F8FB /* SceneDelegate.h */,
+				3024EF1F23B4771C0024F8FB /* SceneDelegate.m */,
+				3024EF2123B4771C0024F8FB /* ViewController.h */,
+				3024EF2223B4771C0024F8FB /* ViewController.m */,
+				3024EF2423B4771C0024F8FB /* Main.storyboard */,
+				3024EF2723B4771F0024F8FB /* Assets.xcassets */,
+				3024EF2923B4771F0024F8FB /* LaunchScreen.storyboard */,
+				3024EF2C23B4771F0024F8FB /* Info.plist */,
+				3024EF2D23B4771F0024F8FB /* main.m */,
+			);
+			path = YYLabelDemo;
+			sourceTree = "<group>";
+		};
+		9832BCBA306901BDA1ED42FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31184B9DC93D311882135D1 /* libPods-YYLabelDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7D675BE9A116EF162A13BC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF6918D4B5A754559D80C68F /* Pods-YYLabelDemo.debug.xcconfig */,
+				9AA0B1BEBF4E4C2E4CEA3401 /* Pods-YYLabelDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3024EF1723B4771C0024F8FB /* YYLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3024EF3123B4771F0024F8FB /* Build configuration list for PBXNativeTarget "YYLabelDemo" */;
+			buildPhases = (
+				ED87773D99C2540077DFF9DE /* [CP] Check Pods Manifest.lock */,
+				3024EF1423B4771C0024F8FB /* Sources */,
+				3024EF1523B4771C0024F8FB /* Frameworks */,
+				3024EF1623B4771C0024F8FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYLabelDemo;
+			productName = YYLabelDemo;
+			productReference = 3024EF1823B4771C0024F8FB /* YYLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3024EF1023B4771C0024F8FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 100uu;
+				TargetAttributes = {
+					3024EF1723B4771C0024F8FB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3024EF1323B4771C0024F8FB /* Build configuration list for PBXProject "YYLabelDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3024EF0F23B4771C0024F8FB;
+			productRefGroup = 3024EF1923B4771C0024F8FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3024EF1723B4771C0024F8FB /* YYLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3024EF1623B4771C0024F8FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024EF2B23B4771F0024F8FB /* LaunchScreen.storyboard in Resources */,
+				3024EF2823B4771F0024F8FB /* Assets.xcassets in Resources */,
+				3024EF2623B4771C0024F8FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED87773D99C2540077DFF9DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3024EF1423B4771C0024F8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024EF2323B4771C0024F8FB /* ViewController.m in Sources */,
+				3024EF1D23B4771C0024F8FB /* AppDelegate.m in Sources */,
+				3024EF2E23B4771F0024F8FB /* main.m in Sources */,
+				3024EF2023B4771C0024F8FB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3024EF2423B4771C0024F8FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3024EF2523B4771C0024F8FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3024EF2923B4771F0024F8FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3024EF2A23B4771F0024F8FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3024EF2F23B4771F0024F8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3024EF3023B4771F0024F8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3024EF3223B4771F0024F8FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6918D4B5A754559D80C68F /* Pods-YYLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNTBAK5R5F;
+				INFOPLIST_FILE = YYLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uugame.100uu.YYLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3024EF3323B4771F0024F8FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA0B1BEBF4E4C2E4CEA3401 /* Pods-YYLabelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNTBAK5R5F;
+				INFOPLIST_FILE = YYLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uugame.100uu.YYLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3024EF1323B4771C0024F8FB /* Build configuration list for PBXProject "YYLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024EF2F23B4771F0024F8FB /* Debug */,
+				3024EF3023B4771F0024F8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3024EF3123B4771F0024F8FB /* Build configuration list for PBXNativeTarget "YYLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3024EF3223B4771F0024F8FB /* Debug */,
+				3024EF3323B4771F0024F8FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3024EF1023B4771C0024F8FB /* Project object */;
+}
